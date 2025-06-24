@@ -92,7 +92,7 @@ export default function BlogContentForm() {
     try {
       setIsGenerating(true);
       const response = await axios.post(
-        "http://localhost:5000/api/post/generate-post",
+        "https://sm-post-generator.onrender.com/api/post/generate-post",
         data
       );
 
